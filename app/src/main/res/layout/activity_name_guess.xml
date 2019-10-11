@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".NameGuess">
+
+    <Button
+        android:id="@+id/NGBtn1"
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="1dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="A"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/NGBtn6"
+        app:layout_constraintEnd_toStartOf="@+id/NGBtn2"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/NGBtn2"
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="B"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/NGBtn7"
+        app:layout_constraintEnd_toStartOf="@+id/NGBtn3" />
+
+    <Button
+        android:id="@+id/NGBtn3"
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="E"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/NGBtn8"
+        app:layout_constraintEnd_toStartOf="@+id/NGBtn4" />
+
+    <Button
+        android:id="@+id/NGBtn4"
+        android:layout_width="69dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="H"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/NGBtn9"
+        app:layout_constraintEnd_toStartOf="@+id/NGBtn5" />
+
+    <Button
+        android:id="@+id/NGBtn5"
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="K"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/NGBtn10"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/NGBtn6"
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="90dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="1dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="L"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/NGBtn7"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/NGBtn7"
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="90dp"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="O"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/NGBtn8" />
+
+    <Button
+        android:id="@+id/NGBtn8"
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="90dp"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="R"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/NGBtn9" />
+
+    <Button
+        android:id="@+id/NGBtn9"
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="90dp"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="U"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/NGBtn10" />
+
+    <Button
+        android:id="@+id/NGBtn10"
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="90dp"
+        android:layout_marginEnd="1dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="Z"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/NGTitle"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="125dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="WHAT ANIMAL IS THIS?"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/NGBoard"
+        android:layout_width="88dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/carter_one"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorAdding"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NGScore" />
+
+    <TextView
+        android:id="@+id/NGScore"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/carter_one"
+        android:text="SCORE "
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/NGLife"
+        android:layout_width="43dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/carter_one"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/NGX"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/NGX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/carter_one"
+        android:text="X"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/NGHeart"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/NGHeart"
+        android:layout_width="76dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_heart_foreground" />
+
+    <ImageView
+        android:id="@+id/NGPic"
+        android:layout_width="138dp"
+        android:layout_height="83dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NGTitle"
+        app:srcCompat="@mipmap/ic_zebra_foreground" />
+
+    <TextView
+        android:id="@+id/NGSub"
+        android:layout_width="241dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/carter_one"
+        android:letterSpacing="0.5"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NGPic" />
+</android.support.constraint.ConstraintLayout>

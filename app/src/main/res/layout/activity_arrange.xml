@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Arrange">
+
+    <TextView
+        android:id="@+id/ArrangeLife"
+        android:layout_width="43dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/carter_one"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/ArrangeX"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ArrangeX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/carter_one"
+        android:text="X"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/ArrangeHeart"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ArrangeScore"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/carter_one"
+        android:text="SCORE "
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ArrangeBoard"
+        android:layout_width="88dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/carter_one"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorAdding"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ArrangeScore" />
+
+    <TextView
+        android:id="@+id/ArrangeTitle"
+        android:layout_width="0dp"
+        android:layout_height="83dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="125dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="ARRANGE NUMBERS BELOW FROM LOW TO HIGH"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ArrangeHeart"
+        android:layout_width="76dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_heart_foreground" />
+
+    <Button
+        android:id="@+id/ArrangeBtn3"
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="124dp"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="2"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ArrangeBtn4" />
+
+    <Button
+        android:id="@+id/ArrangeBtn4"
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="124dp"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="5"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ArrangeBtn5" />
+
+    <Button
+        android:id="@+id/ArrangeBtn5"
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="124dp"
+        android:layout_marginEnd="1dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="9"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/ArrangeBtn2"
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="124dp"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="7"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ArrangeBtn3" />
+
+    <Button
+        android:id="@+id/ArrangeBtn1"
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="124dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="1dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="4"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ArrangeBtn2"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ArrangeSub"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/carter_one"
+        android:letterSpacing="1.0"
+        android:textAlignment="center"
+        android:textColor="@color/colorAdding"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ArrangeTitle" />
+
+    <TextView
+        android:id="@+id/ArrangeSub2"
+        android:layout_width="321dp"
+        android:layout_height="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ArrangeSub" />
+
+</android.support.constraint.ConstraintLayout>

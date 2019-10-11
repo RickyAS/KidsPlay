@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Math">
+
+    <Button
+        android:id="@+id/MathBtn2"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="4"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/MathBtn4"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/MathBtn3"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginStart="70dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="6"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/MathBtn4"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="2"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/MathBtn1"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="70dp"
+        android:backgroundTint="@color/colorAdding"
+        android:fontFamily="@font/carter_one"
+        android:text="5"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/MathBtn3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/MathTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="125dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="COMPLETE THE EQUATION"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/MathScore"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/carter_one"
+        android:text="SCORE "
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/MathBoard"
+        android:layout_width="88dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/carter_one"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorAdding"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MathScore" />
+
+    <TextView
+        android:id="@+id/MathLife"
+        android:layout_width="43dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/carter_one"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/MathX"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/MathX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/carter_one"
+        android:text="X"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/MathHeart"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/MathSame"
+        android:layout_width="26dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/carter_one"
+        android:text="="
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toStartOf="@+id/MathSub3"
+        app:layout_constraintTop_toBottomOf="@+id/MathTitle" />
+
+    <TextView
+        android:id="@+id/MathPlus"
+        android:layout_width="26dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/carter_one"
+        android:text="+"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toStartOf="@+id/MathSub2"
+        app:layout_constraintTop_toBottomOf="@+id/MathTitle" />
+
+    <ImageButton
+        android:id="@+id/MathHeart"
+        android:layout_width="76dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_heart_foreground" />
+
+    <TextView
+        android:id="@+id/MathSub3"
+        android:layout_width="76dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/carter_one"
+        android:text="10"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MathTitle" />
+
+    <TextView
+        android:id="@+id/MathSub2"
+        android:layout_width="68dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/carter_one"
+        android:text="4"
+        android:textAlignment="center"
+        android:textColor="@color/colorAdding"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toStartOf="@+id/MathSame"
+        app:layout_constraintTop_toBottomOf="@+id/MathTitle" />
+
+    <TextView
+        android:id="@+id/MathSub1"
+        android:layout_width="68dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/carter_one"
+        android:text="4"
+        android:textAlignment="center"
+        android:textColor="@color/colorAdding"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toStartOf="@+id/MathPlus"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MathTitle" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="68dp"
+        android:layout_height="10dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MathSub2" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="68dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MathSub1" />
+
+</android.support.constraint.ConstraintLayout>
